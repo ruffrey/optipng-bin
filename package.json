@@ -1,6 +1,6 @@
 {
   "name": "optipng-bin",
-  "version": "0.3.11",
+  "version": "0.3.11-1",
   "description": "OptiPNG wrapper that makes it seamlessly available as a local dependency on OS X, Linux, FreeBSD and Windows",
   "license": "BSD",
   "repository": "imagemin/optipng-bin",
@@ -23,7 +23,6 @@
     "optipng": "cli.js"
   },
   "scripts": {
-    "postinstall": "node lib/install.js",
     "test": "mocha --reporter list --timeout 50000"
   },
   "files": [
